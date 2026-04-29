@@ -1,0 +1,3 @@
+../Core/Src/EEPROM.c:7:6:EEPROM_init	1
+../Core/Src/EEPROM.c:50:6:EEPROM_write_string	5
+../Core/Src/EEPROM.c:84:6:EEPROM_read_string	5
