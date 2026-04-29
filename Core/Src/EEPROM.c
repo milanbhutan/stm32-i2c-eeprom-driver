@@ -65,7 +65,7 @@ void EEPROM_write_string(char str[],char addr[]){
 	// wait for start condition to transmit
 	while(!(I2C1->ISR & I2C_ISR_TXIS)) ;
 	// xmit MSByte of address
-	I2C1->TXDR = (mem_addr >> 8);
+	I2C1->TXDR = (mem_addr >> 8); //iosd
 
 	while(!(I2C1->ISR & I2C_ISR_TXIS)) ;
 	// xmit LSByte of address
