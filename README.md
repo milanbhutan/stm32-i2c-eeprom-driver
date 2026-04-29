@@ -4,7 +4,7 @@ Developed a UART-based interface for reading and writing data via I2C to an EEPR
 # Features
 - UART-based interface which allows users to type in a string of characters to be written to the EEPROM at a specified address. The user can also request the number of bytes to be read from a specified address
 - Register-level I2C communication
-- Supports 14-bit memory addressing
+- Supports 15-bit memory addressing
 
 # Hardware Used
 - STM32L4A6GZ
