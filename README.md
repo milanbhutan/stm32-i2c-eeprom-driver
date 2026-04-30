@@ -22,6 +22,7 @@ Developed a UART-based interface for reading and writing data via I2C to an EEPR
 5. Follow the instructions shown on the terminal to write or read bytes
 
 # Logic Analyzer Output
+The logic analyzer output shown below shows the SDA and SCL waveforms and verifies the proper execution of write and read operations. Start, stop, and acknowledge conditions are highlighted as well as device addresses, memory addresses, and data. 
 <img width="880" height="524" alt="image" src="https://github.com/user-attachments/assets/8daad469-8630-4e67-b8ac-fc15881afd1a" />
 
 # Datasheets
