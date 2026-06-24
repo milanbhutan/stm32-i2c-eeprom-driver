@@ -17,7 +17,7 @@ Developed a UART-based interface for reading and writing data via I2C to an EEPR
 # How to Run
 1. Flash firmware onto STM32 board
 2. Connect UART to PC (e.g., via USB serial)
-3. Wire STM32 to EERPOM as shown in the hardware layout
+3. Wire STM32 to EEPROM as shown in the hardware layout
 4. Open serial terminal such as PuTTY (115200 baud)
 5. Follow the instructions shown on the terminal to write or read bytes
 
